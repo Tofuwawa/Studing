@@ -1,0 +1,2 @@
+import random
+#guess num
