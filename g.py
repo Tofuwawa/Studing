@@ -1,6 +1,9 @@
 import random
 #guess num
-r = random.randint(1,100)
+minn = int(input("Please type the min number"))
+maxx = int(input("Please type the max number"))
+r = random.randint(minn,maxx)
+print("Now the random range is",minn,"to",maxx)
 times = 0
 while True:
     times += 1
